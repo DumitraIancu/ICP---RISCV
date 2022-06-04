@@ -1,0 +1,14 @@
+addi $1, $0, 2
+caddi $2, 3
+addi $4, $0, 4
+LABEL:
+addi $3, $3, 1
+addi $1, $1, 1
+caddi $2, 2
+bne $3, $4, LABEL
+addi $0, $0, 0
+addi $5, $0, 5
+addi $0, $0, 0
+addi $0, $0, 0
+addi $0, $0, 0
+
